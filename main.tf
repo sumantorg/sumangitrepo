@@ -11,3 +11,8 @@ resource "azurerm_resource_group" "sum-rgs" {
   name     = sumanrgs2
   location = central india
   }
+
+    resource "azurerm_resource_group" "sum-rgs3" {
+  name     = sumanrgs3
+  location = central india
+  }
